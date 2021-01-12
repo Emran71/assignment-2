@@ -25,15 +25,22 @@ ul li a{
 ul li a:hover{
 	background: red;
 }
+.dropdown-content{
+    background: lightskyblue;
+    display: none;
+    position: absolute;
+    box-shadow: 0 8px 16px 0 rgb(0, 0, 0,0.3);
+	
+}
 .dropdown-content a{
 	display: block;
-	color: green;
-	display: none;
-	position: absolute;
+	color: #333;
+	
+	
 }
 .dropdown-content a:hover{
 	background: lightcyan;
-	text-decoration-color: #000;
+	
 }
 .dropdown:hover .dropdown-content{
 	display: block;
